@@ -101,3 +101,14 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Local artifacts; scientific sources and published assets stay versioned.
+.DS_Store
+Thumbs.db
+/.env
+/.env.local
+/.env.*.local
+.ipynb_checkpoints/
+/.venv/
+/.pytest_cache/
+/.ruff_cache/
